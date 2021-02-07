@@ -6,7 +6,7 @@ namespace CS_Part2
 {
     public class ASCIIConverter
     {
-        private static char[] ConvertToBit(int a)
+        private static char[] ToChar(int a)
         {
 
             char[] boolArrayOfEightBit = new char[8];
@@ -52,12 +52,12 @@ namespace CS_Part2
                         {'а', 224}, {'б', 225},{'в', 226}, {'г', 227}, {'д', 228}, {'е', 229}, {'ж', 230},{'з', 231}, {'и', 232}, {'й', 233},
                         {'к', 234}, {'л', 235},{'м', 236}, {'н', 237}, {'о', 238}, {'п', 239}, {'р', 240},{'с', 241}, {'т', 242}, {'у', 243},
                         {'ф', 244}, {'х', 245},{'ц', 246}, {'ч', 247}, {'ш', 248}, {'щ', 249}, {'ъ', 250},{'ы', 251}, {'ь', 252}, {'э', 253},
-                        {'ю', 254}, {'я', 255},
+                        {'ю', 254}, {'я', 255}
             };
             List<char[]> listOfByte = new List<char[]>();
             foreach (char letter in text)
             {
-                listOfByte.Add(ConvertToBit(ascii[letter]));
+                listOfByte.Add(ToChar(ascii[letter]));
             }
             return listOfByte;
         }

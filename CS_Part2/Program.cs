@@ -9,12 +9,12 @@ namespace CS_Part2
 {
     class Program
     {
-        const string one = @"C:\Users\D1\Desktop\Nik\Віршик_до_миколая.txt";
-        const string two = @"C:\Users\D1\Desktop\Ref\Посилання.txt";
-        const string three = @"C:\Users\D1\Desktop\Cat\Чого_хоче_кіт.txt";
-        const string onebz = @"C:\Users\D1\Desktop\Nik\Віршик_до_миколая.txt.bz2";
-        const string twobz = @"C:\Users\D1\Desktop\Ref\Посилання.txt.bz2";
-        const string threebz = @"C:\Users\D1\Desktop\Cat\Чого_хоче_кіт.txt.bz2";
+        const string one = @"C:\Users\D1\Desktop\lab1_cs\Nik\Віршик_до_миколая.txt";
+        const string two = @"C:\Users\D1\Desktop\lab1_cs\Ref\Посилання.txt";
+        const string three = @"C:\Users\D1\Desktop\lab1_cs\Cat\Чого_хоче_кіт.txt";
+        const string onebz = @"C:\Users\D1\Desktop\lab1_cs\Nik\Віршик_до_миколая.txt.bz2";
+        const string twobz = @"C:\Users\D1\Desktop\lab1_cs\Ref\Посилання.txt.bz2";
+        const string threebz = @"C:\Users\D1\Desktop\lab1_cs\Cat\Чого_хоче_кіт.txt.bz2";
         static void Main(string[] args)
         {
             Console.WriteLine("-------------------------MyEncript--------------------------------------------------------");

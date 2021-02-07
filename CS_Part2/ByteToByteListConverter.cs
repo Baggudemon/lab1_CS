@@ -7,7 +7,7 @@ namespace CS_Part2
 
     class ByteToByteListConverter
     {
-        private static char[] ConvertToBit(int a)
+        private static char[] ToChar(int a)
         {
 
             char[] boolArrayOfEightBit = new char[8];
@@ -34,7 +34,7 @@ namespace CS_Part2
             byte[] array = File.ReadAllBytes(path);
             foreach (byte a in array)
             {
-                listOfByte.Add(ConvertToBit(a));
+                listOfByte.Add(ToChar(a));
             }
             Console.WriteLine(path);
             return listOfByte;

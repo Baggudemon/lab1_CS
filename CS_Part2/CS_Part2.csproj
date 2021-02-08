@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="asciiConverter.cs" />
     <Compile Include="Base64Converter.cs" />
-    <Compile Include="ByteToByteListConverter.cs" />
     <Compile Include="FileReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
